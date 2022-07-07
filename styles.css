@@ -1,0 +1,72 @@
+*, *::before, *::after {
+    box-sizing: content-box;
+  }
+
+/* Navigation */
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: flex ;  
+  border: solid;
+  justify-content: space-between;
+}
+.sign{
+  background-color: blue;
+  padding: 0 ; 
+  margin-right : 10em ; 
+}
+ul li {
+  display: inline-flex;
+  padding : 1em;
+  align-items: center; 
+}
+
+.navbar img  {
+  width: 10%;
+}
+
+.navbar #sign {
+display: inline-flex;
+}
+/* Welcome section  */
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4em;
+}
+.welcome .welcome_head1 {
+  display: inline-flex;
+  margin-left: 2em;
+
+}
+.welcome .welcome_head2 {
+  display: inline-flex;
+  margin-right: 3.5em;
+
+}
+.InPictures{
+  display:flex;
+  justify-content: space-between;
+
+}
+.suspect_img{
+  margin-left: 2em;
+  display: inline-flex;
+}
+.grp_img {
+ padding-left: 2.5em;
+}
+/* News  section  */
+.news {
+  padding : .5em; 
+}
+.news_head {
+  display:flex;
+  margin-left: 2em;
+  justify-content: space-between;
+}
+.news_img {
+  margin-left: 1.5em;
+  display:flex;
+  padding: 1em; 
+}
